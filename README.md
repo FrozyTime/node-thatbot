@@ -38,23 +38,25 @@ Node.JS library for [thatbot-rcd](https://github.com/dev-variety/thatbot-rcd).
 
 
 
-`tb.createTask('api_key_here', 'login', 10000).then(result => {`
+```js
+tb.createTask('api_key_here', 'login', 10000).then(result => {
 
-​    `console.log(result);`
+​    console.log(result);
 
-​    `tb.pollServer('api_key_here', result.taskId).then(result => {`
+​    tb.pollServer('api_key_here', result.taskId).then(result => {
 
-​        `console.log(result);`
+​        console.log(result);
 
-​    `}).catch(error => {`
+​    }).catch(error => {
 
-​        `console.log(error)`
+​        console.log(error)
 
-​    `})`
+​    })
 
-`}).catch(error => {`
+}).catch(error => {
 
-​    `console.log(error)`
+​    console.log(error)
 
-`})`
+})
+```
 
