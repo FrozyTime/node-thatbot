@@ -16,7 +16,9 @@ Node.JS library for [thatbot-rcd](https://github.com/dev-variety/thatbot-rcd).
 
 ### API
 
-`.createTask(apiKey, scope, timeout)`
+```js
+.createTask(apiKey, scope, timeout)
+```
 
 | apiKey                  | scope                    | timeout          |
 | ----------------------- | ------------------------ | ---------------- |
@@ -24,7 +26,9 @@ Node.JS library for [thatbot-rcd](https://github.com/dev-variety/thatbot-rcd).
 
 
 
-`.pollServer(apiKey, taskID, timeout)`
+```js
+.pollServer(apiKey, taskID, timeout)
+```
 
 | apiKey                  | taskID              | timeout          |
 | ----------------------- | ------------------- | ---------------- |
