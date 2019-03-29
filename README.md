@@ -34,11 +34,10 @@ Node.JS library for [thatbot-rcd](https://github.com/dev-variety/thatbot-rcd).
 
 ### Usage
 
-`const tb = require('thatbot');`
-
-
 
 ```js
+const tb = require('thatbot');
+
 tb.createTask('api_key_here', 'login', 10000).then(result => {
 
 ​    console.log(result);
